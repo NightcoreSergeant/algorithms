@@ -10,8 +10,8 @@
 n=3
 #search(0,[])
 for i in range(2**n):
-     s=[]
-     for j in range(n):
-        if (2**j)&i:
-            s.append(j)
-     print(*s)
+    s=[]
+    for j in range(n):
+       if (2**j)&i:
+           s.append(j)
+    print(*s)
