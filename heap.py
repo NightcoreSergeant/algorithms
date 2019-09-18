@@ -1,5 +1,5 @@
 class Heap:
-    INF=1<<63
+    INF=float('inf')
     #def __init__(self): 
     heap = []  
     

@@ -1,4 +1,5 @@
 #!/bin/bash
+#testing colutions
 for ((i=2;i>0;i++)) do
     echo $i
     python3 gengrid.py > grid
